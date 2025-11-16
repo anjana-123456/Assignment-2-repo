@@ -1,0 +1,352 @@
+/* nave section */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    
+}
+.faugy{
+  /*  margin-top: 24px;
+    margin-left: 100px;*/
+    
+    width: 135px;
+    height: 82px;
+}
+nav ul li{
+    list-style: none;
+   /* margin-right:40px ;*/
+    
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+
+}
+nav ul{
+    display: flex;
+    /*gap: 28px;*/
+    align-items: center;
+    
+}
+.home{
+    color: rgba(37, 36, 50, 1);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.shop{
+    color: rgba(137, 135, 161, 1);
+    font-size: 16px;
+}
+.shopping-cart{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    
+}
+.fa-cart-shopping{
+    color: transparent;
+     -webkit-text-stroke: 1.5px black;
+}
+.nav-links{
+   /* margin-top: 53px;
+    margin-right: 40px;
+    /*margin-left: 500px;*/
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    
+}
+/*hero section*/
+.always-fresh{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.container{
+    margin:220px 0px 120px 100px;
+    
+    width: 570px;
+    height: 299px;
+}
+.font-22{
+    font-size: 22px;
+    font-weight: regular;
+    color: rgba(0, 0, 0, 0.5);
+}
+.black{
+    color: rgba(0, 0, 0, 1);
+    font-size:55px ;
+    font-weight: bold;
+}
+.orange{
+    color: rgba(233, 90, 8, 1);
+    font-size: 55px;
+    font-weight: bold;
+}
+.flower{
+    margin: 140px 100px 0px 0px;
+    
+}
+/*our plant section */
+.plant-section{
+    text-align: center;
+    max-width: 1200px;
+
+   /* width: 1140px;
+    height: 1100px;*/
+    margin: 110px auto;
+    padding: 0px 40px;
+    
+    
+}
+.our{
+        color: rgba(233, 90, 8, 1);
+        font-weight: bold;
+        font-size:40px ;
+}
+.plant{
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-weight: bold;
+} 
+/* card section */
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+   /* margin-right: 100px;*/
+    gap: 40px;
+    margin-top: 50px;
+}
+.cart{
+    width: 260px;
+    height: auto;
+    padding: 10px 0px;
+    
+    
+    
+    /*margin:49px 100px 20px 100px;*/
+    
+     
+    
+}
+.sample{
+    width: 100%;
+
+}
+.life{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 1);
+    margin:25px 0px 5px 0px;
+    
+    
+}
+
+
+.usd{
+    color: rgba(17, 17, 17, 1);
+    font-weight: bold;
+    font-size: 18px;
+
+    
+
+    
+}
+
+.button{
+    background-color: rgba(233, 90, 8, 1);
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+   margin-top: 20px;
+
+}
+/* flower plant lover section */
+.plants-lover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:60px ;
+    width: 100%;
+    max-width: 1400px;
+    
+    
+    
+
+}
+
+    
+
+.plant-img{
+    position: relative;
+    margin-top: 120px;
+    
+    margin-left: 100px;
+    
+    
+
+}
+.flower-h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+
+}
+.li{
+    font-size: 22px;
+    font-weight:400 ;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 12px;
+}
+.lower-store{
+    
+}
+.badge{
+    position: absolute;
+    top: -125px;
+    right: -100px;
+    width: 286px;
+    height: 286px;
+    z-index: 90;
+    
+}
+.text-container{
+    margin-right: 100px;
+    max-width: 500px;
+    margin-top: 130px;
+
+
+    
+    
+    
+    
+
+    
+}
+.beauty{
+    text-align: left;
+    font-size: 22px;
+    
+}
+/*Latest Deals section */
+.latest-deals{
+    text-align: center;
+    margin:  120px ;
+}
+.Latest{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+
+}
+.latest-span{
+    color: rgba(233, 90, 8, 1);
+}
+.Deals{
+    color: rgba(0, 0, 0, 1);
+    
+}
+/* offer-section */
+.offer-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    
+    
+
+}
+.offer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 100px;
+
+    
+
+    
+    
+}
+/*small card (left)*/
+.Bloom-plant,.Ana-plant{
+   
+    width: 367px;
+    height: 195px;
+    background-size: cover;
+    padding: 25px;
+    border-radius: 14px;
+    color: rgba(200, 200, 200, 1);
+    text-align: center;
+    
+}
+/*Big right card*/
+.zabo-plant{
+    width: 753px;
+    height: 423px;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 14px;
+    color:rgba(200, 200, 200, 1);
+    margin-right: 100px;
+    text-align: center;
+
+}
+/* Text inside card*/
+.Bloom-plant h2,
+.Ana-plant h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 65px 50px 15px 49px;
+    color: rgba(255, 255, 255, 1);
+
+} 
+.Bloom-plant a,
+.Ana-plant a{
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 0px 66px 60px 66px;
+    color: rgba(255, 255, 255, 1);
+ 
+
+}
+.zabo-plant h2{
+    font-size:40px ;
+    font-weight:bold ;
+    text-shadow: 1px 1px  4px rgba(0, 0, 0, 0.4);
+    margin: ;
+    color: rgba(255, 255, 255, 1);
+}
+.zabo-plant a{
+    font-size:28px ;
+    font-weight:600 ;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 1);
+}
+    
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
